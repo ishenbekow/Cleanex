@@ -1,0 +1,68 @@
+.common-title,
+.customers-title {
+ text-align: center;
+}
+.customers-title {
+ color: #555;
+ font-size: 32px;
+ font-weight: 700;
+ margin-bottom: 100px;
+}
+
+.customers-flex {
+ display: flex;
+ justify-content: space-between;
+ gap: 20px;
+}
+
+.customers-card {
+ position: relative;
+ width: 278px;
+ height: 184px;
+ border-radius: 5px;
+ border: 1px solid #dedede;
+ padding: 66px 28px 24px;
+ text-align: center;
+}
+.icon {
+ width: 100px;
+ height: 100px;
+ border: 1px solid #dedede;
+ background-color: #fff;
+ border-radius: 50%;
+ top: -30%;
+ left: calc(50% - 50px);
+ position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.customers-card h5 {
+ color: #1195ff;
+ font-size: 20px;
+ font-weight: 600;
+ text-transform: capitalize;
+ margin-bottom: 16px;
+}
+.customers-card p {
+ color: #292929;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 20px;
+ text-transform: capitalize;
+}
+
+.customers-card:hover {
+ box-shadow: 0px 4px 20px 0px rgba(12, 82, 137, 0.2);
+ background-color: #1195ff;
+ border-color: #1195ff;
+ color: #fff;
+}
+
+.customers-card:hover h5,
+.service-card:hover p {
+ color: #fff;
+}
+.customers-card:hover .icon {
+ border: 1px solid #1195ff;
+}

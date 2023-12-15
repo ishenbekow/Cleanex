@@ -1,0 +1,57 @@
+    .header {
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+    
+    }
+
+    .logo {
+        margin-right: 120px;
+        display: flex;
+        align-items: center;
+
+    }
+    
+    .logo span{
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+
+    nav{
+        display: flex;
+        gap: 50px;
+        margin-right: 120px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    nav a {
+        text-transform: uppercase;
+        
+    }
+
+
+    nav a.active {
+        font-weight: 700;
+    }
+
+
+
+
+    .header-btn{
+        margin-left: 105px;
+        background-color: #1195FF;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding:15px 35px ;
+        border-radius: 50px;
+    }
+
+    .header-btn button{
+    border: 0;
+    background: transparent;
+    color: white;
+    }

@@ -1,0 +1,61 @@
+.portfolio {
+  width: 1470px;
+}
+
+.port-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.port-img img {
+  width: 377px;
+  height: 270px;
+  border-radius: 5px;
+}
+
+.port-card {
+  width: 377px;
+}
+.port-down {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
+  margin-top: 210px;
+}
+
+.port-arrow {
+  width: 30px;
+  height: 30px;
+}
+
+.port-img {
+  position: relative;
+}
+.port-card:hover .p-links {
+  display: block;
+  border-radius: 5px;
+  background: linear-gradient(0deg, #1195ff 12.55%, rgba(217, 217, 217, 0) 75%);
+}
+.p-links {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 97%;
+  width: 100%;
+  display: none;
+}
+
+.port-down-text h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.port-down-text p {
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
